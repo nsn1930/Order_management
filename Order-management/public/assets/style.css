@@ -1,0 +1,11 @@
+#newOrderForm {
+    display: none;
+}
+
+#newOrderForm.show {
+    display: block;
+}
+
+.actions {
+    padding-top: 2rem;
+}
