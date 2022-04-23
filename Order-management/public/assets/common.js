@@ -114,7 +114,7 @@ const newOrderForm = async () => {
 const ordersList = async () => {
     const listEl = document.querySelector('.ordersList')
     const orders = await transferData(url + '/orders/get-orders')
-    let html = '<h2>Jūs neturite jokių užsakymų</h2>'
+    let html = '<h2 class="noOrder">Jūs neturite jokių užsakymų</h2>'
 
     if (orders.length > 0) {
         html = `<h2>Jūsų užsakymai</h2>
